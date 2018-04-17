@@ -1,0 +1,10 @@
+export const AUTH_USER = 'auth_user';
+export const UNAUTH_USER = 'unauth_user';
+export const AUTH_ERROR = 'auth_error';
+export const FETCH_USER_POLLS = 'fetch_user_polls';
+export const SUBMIT_POLL = 'submit_poll';
+export const FETCH_POLL = 'FETCH_POLL';
+export const EDIT_POLL = 'edit_poll';
+export const DELETE_POLL = 'delete_poll';
+export const SELECTION_SUBMITTED = 'selection_submitted';
+export const FETCH_ALL_POLLS = 'fetch_all_polls';

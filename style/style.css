@@ -1,0 +1,35 @@
+.error {
+    color: red;
+}
+.jumbotron {
+    background: linear-gradient(to bottom,#B54D3C 0%,#7F362A 100%) !important;
+}
+.app-banner {
+    background-color: green;
+    text-align: center;
+    color: #fff;
+}
+.list-group-item {
+    text-align: center !important;
+}
+.poll-container h1, h3{
+    text-align: center;
+}
+
+form button {
+    margin: 0 auto;
+}
+.form-buttons > button {
+    margin-top: 20px;
+    display: block !important;
+    width: 200px;
+}
+.submit-poll-button {
+    margin-top: 20px;
+    display: block !important;
+    width: 200px;
+}
+.VictoryContainer {
+    max-width: 600px;
+    margin: 0 auto;
+}
