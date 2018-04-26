@@ -11,6 +11,7 @@ class Poll extends Component {
     }
     render() {
         //should set initial data up as a seperate form import into container
+        console.log(this.props.pollData.showPollForm)
         return (
             <div className="poll-container">
             <div className="jumbotron app-banner">
@@ -18,9 +19,8 @@ class Poll extends Component {
                     <p>Please make your selection</p>
                     
             </div>
-            
                 <h1>{this.props.pollData.pollTitle}</h1>
-                {this.props.pollData.showPollForm ? 
+                {this.props.pollData.showPollForm || !this.props.pollData.pollResults ? 
                 <PollForm/>
                 :
                 <div>

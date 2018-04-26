@@ -11,7 +11,7 @@ import {
     SELECTION_SUBMITTED,
     FETCH_ALL_POLLS
 } from './types';
-const ROOT_URL = 'http://localhost:3090';
+const ROOT_URL = 'https://sheltered-headland-81178.herokuapp.com';
 let socket = io(ROOT_URL);
 
 export function returnId() {
